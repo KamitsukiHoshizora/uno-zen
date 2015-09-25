@@ -87,6 +87,11 @@
           > a {
             padding: .625rem 1.25rem;
           }
+          
+          &:hover {
+            border-color: $hover-color;
+            background-color: $gray-lightest-trans;
+          }
         }
 
         > a {

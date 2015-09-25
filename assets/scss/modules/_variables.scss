@@ -7,6 +7,7 @@ $gray                  : #ccc;
 $gray-light            : #ddd;
 $gray-lighter          : #eee;
 $gray-lightest         : #f8f8f8;
+$gray-lightest-trans   : rgba($gray-lightest, .5);
 
 $black                 : #000000;
 $white                 : #FFFFFF;
@@ -14,8 +15,9 @@ $cyan                  : #006064;
 $red                   : #e74c3c;
 $purple                : #493252;
 $slate                 : #3d4260;
+$theme                 : #00afef;
 
-$primary-color         : lighten($red, 5%);
+$primary-color         : lighten($theme, 5%);
 $secondary-color       : $gray-dark;
 
 $cover-secondary       : rgba(#5f2c82, .1);
