@@ -2,3 +2,4 @@
 .sass-cache/
 assets/vendor
 assets/scss/bourbon
+node_modules/*

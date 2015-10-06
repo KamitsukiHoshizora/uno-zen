@@ -121,6 +121,10 @@
     &.expanded {
       transform: translate3d(14rem, 0, 0);
     }
+    
+    .content {
+      margin: 0 2rem;
+    }
   }
 }
 // ------------------------------
@@ -132,9 +136,15 @@
     display: block;
     margin-bottom: .4em;
   }
+  
   main {
     padding: 1rem 0;
+    
+    .content {
+      margin: 0 20px;
+    }
   }
+  
   .mayday {
     width: auto;
     > h2 {
